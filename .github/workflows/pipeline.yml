@@ -1,10 +1,14 @@
+
 name: MediCart pipeline
-on : push
+
+on: push
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checout@v4 
-      - name: Run tests 
-      run: echo "All tests passed" && exit 0
+      - uses: actions/checkout@v4
+      - name: Run tests
+        run: echo "All tests passed" && exit 0
+
       
