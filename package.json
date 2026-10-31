@@ -1,0 +1,13 @@
+{
+  "name": "medicart-pipeline",
+  "version": "1.0.0",
+  "description": "Week 3 Practical: Integration, Delivery and Deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "node --check app.js && node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
